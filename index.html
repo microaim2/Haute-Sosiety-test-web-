@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haute Sosiety is a luxury-inspired editorial website exploring iconic fashion brands and current runway trends.">
+    <title>Haute Sosiety</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="site-noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand-logo" href="#hero">Haute Sosiety</a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <a href="#hero">Home</a>
+            <a href="#brands">Brands</a>
+            <a href="#news">News</a>
+            <a href="#items">Popular Items</a>
+            <a href="#footer">Social</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="kicker">Luxury Editorial</p>
+                    <h1>
+                        Haute
+                        <span>Sosiety</span>
+                    </h1>
+                    <p class="hero-subtitle">Exploring Iconic Fashion Brands</p>
+                    <p class="hero-text">
+                        An elevated fashion dossier on the houses that shaped luxury, status, and modern desire. From Parisian codes to Milanese minimalism,
+                        Haute Sosiety frames heritage brands with the polish of a campaign site and the rhythm of an editorial feature.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#brands">Explore the Brands</a>
+                        <a class="button button-secondary" href="#news">Read the Trend Edit</a>
+                    </div>
+
+                    <div class="hero-metrics">
+                        <div class="metric-card tilt-card">
+                            <span class="metric-label">Featured Houses</span>
+                            <strong>05</strong>
+                            <p>Chanel, Louis Vuitton, Gucci, Prada, Dior.</p>
+                        </div>
+                        <div class="metric-card metric-card-accent tilt-card">
+                            <span class="metric-label">Trend Cycle</span>
+                            <strong>2024-2025</strong>
+                            <p>East-west bags, suede sneakers, logo archives, and sharper tailoring.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-stage reveal">
+                    <div class="hero-orbit orbit-one"></div>
+                    <div class="hero-orbit orbit-two"></div>
+
+                    <div class="hero-frame tilt-card">
+                        <div class="frame-topline">
+                            <span>Campaign Note</span>
+                            <span>Issue 01</span>
+                        </div>
+                        <div class="frame-copy">
+                            <p class="panel-label">Current Luxury Mood</p>
+                            <h2>Monumental minimalism with archival heat.</h2>
+                            <p>
+                                The strongest fashion image right now is precise, tactile, and legible. Icon bags, polished footwear, and recognizable house signatures
+                                are being styled with cleaner silhouettes and more confidence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="hero-badge tilt-card">
+                        <span class="badge-label">Most Wanted</span>
+                        <p>Structured bags, heritage loafers, and collectible vintage codes.</p>
+                    </div>
+
+                    <div class="hero-quote tilt-card">
+                        <p>"Luxury now feels less loud, more exact."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ticker" aria-label="Featured fashion houses">
+            <div class="ticker-track">
+                <span>Chanel</span>
+                <span>Louis Vuitton</span>
+                <span>Gucci</span>
+                <span>Prada</span>
+                <span>Dior</span>
+                <span>Chanel</span>
+                <span>Louis Vuitton</span>
+                <span>Gucci</span>
+                <span>Prada</span>
+                <span>Dior</span>
+                <span>Chanel</span>
+                <span>Louis Vuitton</span>
+                <span>Gucci</span>
+                <span>Prada</span>
+                <span>Dior</span>
+                <span>Chanel</span>
+                <span>Louis Vuitton</span>
+                <span>Gucci</span>
+                <span>Prada</span>
+                <span>Dior</span>
+                <span>Chanel</span>
+                <span>Louis Vuitton</span>
+                <span>Gucci</span>
+                <span>Prada</span>
+                <span>Dior</span>
+                <span>Chanel</span>
+                <span>Louis Vuitton</span>
+                <span>Gucci</span>
+                <span>Prada</span>
+                <span>Dior</span>
+            </div>
+        </section>
+
+        <section class="brands section section-framed" id="brands">
+            <div class="section-heading reveal">
+                <p class="kicker">Fashion Houses</p>
+                <h2>The Brands That Built the Luxury Vocabulary</h2>
+                <p>
+                    Filter the maisons by aesthetic and open each card for a sharper editorial snapshot of history, identity, and hero products.
+                </p>
+            </div>
+
+            <div class="filter-bar reveal" role="toolbar" aria-label="Brand filters">
+                <button class="filter-button is-active" type="button" data-filter="all">All</button>
+                <button class="filter-button" type="button" data-filter="heritage">Heritage</button>
+                <button class="filter-button" type="button" data-filter="statement">Statement</button>
+                <button class="filter-button" type="button" data-filter="minimal">Minimal</button>
+                <button class="filter-button" type="button" data-filter="couture">Couture</button>
+            </div>
+
+            <div class="brands-grid">
+                <article class="brand-card reveal tilt-card" data-category="heritage couture">
+                    <div class="brand-index">01</div>
+                    <div class="brand-meta">
+                        <span class="brand-pill">Parisian Classic</span>
+                        <h3>Chanel</h3>
+                        <p class="brand-founder">Founder: Gabrielle "Coco" Chanel</p>
+                    </div>
+                    <p class="brand-summary">
+                        Founded in 1910, Chanel changed modern womenswear by replacing restrictive fashion with ease, confidence, and understated elegance.
+                        The house became legendary through tweed tailoring, quilted leather, pearls, and a black-and-white visual language that still feels timeless.
+                    </p>
+                    <button class="read-more" type="button" aria-expanded="false">Read more</button>
+                    <div class="expandable">
+                        <div>
+                            <h4>Key Characteristics</h4>
+                            <p>Refined femininity, quilted textures, camellias, polished tailoring, and effortless French luxury.</p>
+                        </div>
+                        <div>
+                            <h4>Famous Items</h4>
+                            <p>2.55 bag, Classic Flap, tweed jackets, slingback heels, Chanel No. 5.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="brand-card reveal tilt-card" data-category="heritage statement">
+                    <div class="brand-index">02</div>
+                    <div class="brand-meta">
+                        <span class="brand-pill">Travel Legacy</span>
+                        <h3>Louis Vuitton</h3>
+                        <p class="brand-founder">Founder: Louis Vuitton</p>
+                    </div>
+                    <p class="brand-summary">
+                        Established in 1854 as a trunk maker, Louis Vuitton built its identity around craftsmanship, travel, and instantly recognizable monogram luxury.
+                        Its fashion universe now spans leather goods, ready-to-wear, and runway collections that merge heritage with futuristic edge.
+                    </p>
+                    <button class="read-more" type="button" aria-expanded="false">Read more</button>
+                    <div class="expandable">
+                        <div>
+                            <h4>Key Characteristics</h4>
+                            <p>Monogram canvas, sculptural accessories, travel references, sharp leather goods, and modern status symbolism.</p>
+                        </div>
+                        <div>
+                            <h4>Famous Items</h4>
+                            <p>Speedy, Keepall, Neverfull, Capucines, monogram trunks, LV trainers.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="brand-card reveal tilt-card" data-category="statement heritage">
+                    <div class="brand-index">03</div>
+                    <div class="brand-meta">
+                        <span class="brand-pill">Italian Drama</span>
+                        <h3>Gucci</h3>
+                        <p class="brand-founder">Founder: Guccio Gucci</p>
+                    </div>
+                    <p class="brand-summary">
+                        Gucci began in Florence in 1921 and evolved from fine luggage and leather goods into one of the most visible names in fashion.
+                        The brand is known for combining traditional Italian craft with bold image-making, equestrian heritage, and instantly recognizable house codes.
+                    </p>
+                    <button class="read-more" type="button" aria-expanded="false">Read more</button>
+                    <div class="expandable">
+                        <div>
+                            <h4>Key Characteristics</h4>
+                            <p>Horsebit hardware, web stripes, maximal styling, rich materials, and heritage with attitude.</p>
+                        </div>
+                        <div>
+                            <h4>Famous Items</h4>
+                            <p>Jackie bag, Bamboo 1947, Horsebit loafers, GG Marmont, Dionysus bag.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="brand-card reveal tilt-card" data-category="minimal statement">
+                    <div class="brand-index">04</div>
+                    <div class="brand-meta">
+                        <span class="brand-pill">Intellectual Minimalism</span>
+                        <h3>Prada</h3>
+                        <p class="brand-founder">Founder: Mario Prada</p>
+                    </div>
+                    <p class="brand-summary">
+                        Prada was founded in 1913 in Milan and rose to modern influence by making restraint, nylon, and conceptual style feel luxurious.
+                        The brand's appeal comes from intelligent design, cooler silhouettes, and a refined tension between utility and fashion.
+                    </p>
+                    <button class="read-more" type="button" aria-expanded="false">Read more</button>
+                    <div class="expandable">
+                        <div>
+                            <h4>Key Characteristics</h4>
+                            <p>Clean lines, technical materials, subtle branding, cerebral styling, and elevated utility.</p>
+                        </div>
+                        <div>
+                            <h4>Famous Items</h4>
+                            <p>Re-Nylon bags, Galleria bag, triangle logo pieces, America's Cup sneakers, minimalist tailoring.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="brand-card reveal tilt-card" data-category="couture heritage">
+                    <div class="brand-index">05</div>
+                    <div class="brand-meta">
+                        <span class="brand-pill">Couture Romance</span>
+                        <h3>Dior</h3>
+                        <p class="brand-founder">Founder: Christian Dior</p>
+                    </div>
+                    <p class="brand-summary">
+                        Since 1946, Dior has embodied Parisian refinement, first redefining postwar style with the sculptural "New Look."
+                        Today the house continues to balance couture fantasy, delicate detail, and commercial icons across fashion, beauty, and accessories.
+                    </p>
+                    <button class="read-more" type="button" aria-expanded="false">Read more</button>
+                    <div class="expandable">
+                        <div>
+                            <h4>Key Characteristics</h4>
+                            <p>Architectural silhouettes, florals, femininity, couture precision, and elegant embellishment.</p>
+                        </div>
+                        <div>
+                            <h4>Famous Items</h4>
+                            <p>Lady Dior, Saddle bag, Book Tote, Bar jacket, J'adore fragrance.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="news section" id="news">
+            <div class="spotlight reveal tilt-card">
+                <div class="spotlight-copy">
+                    <p class="kicker">Editorial Note</p>
+                    <h2>The strongest luxury signal right now is precision.</h2>
+                    <p>
+                        Across 2024-2025 collections, the mood is cleaner but not quieter. Houses are sharpening silhouettes, leaning into tactile materials,
+                        and pushing icon products that feel instantly legible from across a room.
+                    </p>
+                </div>
+                <div class="spotlight-points">
+                    <div>
+                        <span>01</span>
+                        <p>East-west bags and top-handle shapes are holding attention.</p>
+                    </div>
+                    <div>
+                        <span>02</span>
+                        <p>Brown and suede sneakers are giving minimal wardrobes warmth.</p>
+                    </div>
+                    <div>
+                        <span>03</span>
+                        <p>Vintage logo pieces continue to read as collectible and knowing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-heading reveal">
+                <p class="kicker">News / Trends</p>
+                <h2>2024-2025 Collections and What's Popular Now</h2>
+                <p>
+                    Recent runway energy keeps returning to recognizable house codes, polished accessory stories, and silhouettes that feel more exact than oversized.
+                </p>
+            </div>
+
+            <div class="news-grid">
+                <article class="news-card reveal tilt-card">
+                    <span class="news-tag">Chanel</span>
+                    <h3>Spring-Summer 2025 moved toward lightness</h3>
+                    <p>
+                        Chanel's recent ready-to-wear direction leaned into fluid movement, softer structure, and a lighter expression of classic codes.
+                        The effect kept the house elegant while making it feel fresher and more relaxed.
+                    </p>
+                </article>
+
+                <article class="news-card reveal tilt-card">
+                    <span class="news-tag">Louis Vuitton</span>
+                    <h3>Cruise 2025 kept travel and sculptural dressing central</h3>
+                    <p>
+                        Louis Vuitton continued building around movement, destination, and artistic silhouettes, pairing travel heritage with embellished accessories
+                        and high-impact shapes that still read as luxurious and modern.
+                    </p>
+                </article>
+
+                <article class="news-card reveal tilt-card">
+                    <span class="news-tag">Gucci</span>
+                    <h3>Heritage details remain a major asset</h3>
+                    <p>
+                        Gucci's current fashion language keeps returning to house emblems, polished leather pieces, and stronger tailoring.
+                        That has made classic accessories and logo-linked icons feel newly relevant again.
+                    </p>
+                </article>
+
+                <article class="news-card reveal tilt-card">
+                    <span class="news-tag">Prada</span>
+                    <h3>Minimalism is getting warmer and more tactile</h3>
+                    <p>
+                        Prada's recent collections continue refining clean silhouettes, but with more texture, instinct, and emotional softness.
+                        It is minimal fashion that still feels directional, not cold.
+                    </p>
+                </article>
+
+                <article class="news-card reveal tilt-card">
+                    <span class="news-tag">Dior</span>
+                    <h3>Couture is embracing memory, transparency, and drama</h3>
+                    <p>
+                        Dior's latest couture storytelling mixed historical references with airy construction, embroidery, and theatrical shape.
+                        The house still thrives when romance is paired with strong structure.
+                    </p>
+                </article>
+
+                <article class="news-card featured reveal tilt-card">
+                    <span class="news-tag">Now Popular</span>
+                    <h3>Bags, sneakers, and vintage pieces are leading demand</h3>
+                    <p>
+                        East-west bags, heritage loafers, brown and suede sneakers, archival logo bags, and collectible top-handle styles are especially visible now.
+                        Luxury shoppers are leaning toward pieces that feel iconic, wearable, and instantly legible.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="items section section-framed" id="items">
+            <div class="section-heading reveal">
+                <p class="kicker">Popular Items</p>
+                <h2>The Pieces Defining the Luxury Feed</h2>
+                <p>
+                    A fast edit of fashion items trending across runways, resale platforms, boutique wish lists, and style-led social media.
+                </p>
+            </div>
+
+            <div class="items-grid">
+                <article class="item-card item-card-featured reveal tilt-card">
+                    <span class="item-label">Trend Overview</span>
+                    <h3>The accessories doing the heaviest image work right now</h3>
+                    <p>
+                        Structured handbags, heritage footwear, and archival logo pieces are dominating because they communicate house identity instantly
+                        while still fitting into a cleaner, more disciplined way of dressing.
+                    </p>
+                </article>
+
+                <article class="item-card reveal tilt-card">
+                    <span class="item-label">Chanel</span>
+                    <h3>Classic Flap Revisited</h3>
+                    <p>Still the benchmark for quilted elegance and one of the clearest signals of timeless luxury.</p>
+                </article>
+
+                <article class="item-card reveal tilt-card">
+                    <span class="item-label">Louis Vuitton</span>
+                    <h3>Structured Monogram Bags</h3>
+                    <p>Travel heritage is translating into polished, collectible bags with architectural presence.</p>
+                </article>
+
+                <article class="item-card reveal tilt-card">
+                    <span class="item-label">Gucci</span>
+                    <h3>Horsebit Loafers</h3>
+                    <p>Sharp, versatile, and heritage-rich, they continue to anchor the elevated classic wardrobe.</p>
+                </article>
+
+                <article class="item-card reveal tilt-card">
+                    <span class="item-label">Prada</span>
+                    <h3>Suede Sneakers</h3>
+                    <p>Retro-leaning sneakers in richer browns and softened textures are one of the strongest current signals.</p>
+                </article>
+
+                <article class="item-card reveal tilt-card">
+                    <span class="item-label">Dior</span>
+                    <h3>Lady Dior</h3>
+                    <p>A top-handle icon that fits the renewed appetite for polished, collectible handbag silhouettes.</p>
+                </article>
+
+                <article class="item-card reveal tilt-card">
+                    <span class="item-label">Cross-Brand Trend</span>
+                    <h3>Vintage Archival Pieces</h3>
+                    <p>Older monograms, logo bags, and house-coded accessories are being styled as prized fashion evidence.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer section" id="footer">
+        <div class="footer-copy reveal">
+            <p class="kicker">Haute Sosiety</p>
+            <h2>Luxury style, edited with sharper contrast.</h2>
+            <p>
+                A fashion-focused destination for brand heritage, current runway direction, and the accessories shaping today's luxury image.
+            </p>
+        </div>
+
+        <div class="footer-links reveal">
+            <a href="https://t.me/Euro50cent" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://t.me/Euro50cent" target="_blank" rel="noopener noreferrer">Pinterest</a>
+            <a href="https://t.me/Euro50cent" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://t.me/Euro50cent" target="_blank" rel="noopener noreferrer">Newsletter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
